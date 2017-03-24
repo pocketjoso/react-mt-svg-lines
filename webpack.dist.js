@@ -23,7 +23,7 @@ module.exports = {
 
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
-      minimize:   true,
+      minimize:   false,
       compressor: { warnings: false }
     })
   ]
